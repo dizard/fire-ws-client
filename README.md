@@ -8,6 +8,12 @@ Include
 <script src="./fws.js"></script>
 ```
 
+Channels prefix
+```
+@ - user channel (@userChannelName)
+# - private channel (#privateChannelName)
+```
+
 ```javasript
 var FWSClient = new FWS('host', 'nameSpace', 'authString);
 FWSClient.on('auth', function(conId) {
